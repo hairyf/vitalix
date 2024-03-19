@@ -51,18 +51,6 @@ importers:
         specifier: ^7.2.3
         version: 7.2.3
 
-  packages/vitalix-configs:
-    dependencies:
-      '@vitalix/connector':
-        specifier: workspace:^
-        version: link:../vitalix-core
-
-  packages/vitalix-core:
-    dependencies:
-      mitt:
-        specifier: ^3.0.1
-        version: 3.0.1
-
 packages:
 
   /@aashutoshrathi/word-wrap@1.2.6:
@@ -4169,10 +4157,6 @@ packages:
     resolution: {integrity: sha512-jYofLM5Dam9279rdkWzqHozUo4ybjdZmCsDHePy5V/PbBcVMiSZR97gmAy45aqi8CK1lG2ECd356FU86avfwUQ==}
     engines: {node: '>=16 || 14 >=14.17'}
     dev: true
-
-  /mitt@3.0.1:
-    resolution: {integrity: sha512-vKivATfr97l2/QBCYAkXYDbrIWPM2IIKEl7YPhjCvKlG3kE2gm+uBo6nEXK3M5/Ffh/FLpKExzOQ3JJoJGFKBw==}
-    dev: false
 
   /mixme@0.5.10:
     resolution: {integrity: sha512-5H76ANWinB1H3twpJ6JY8uvAtpmFvHNArpilJAjXRKXSDDLPIMoZArw5SH0q9z+lLs8IrMw7Q2VWpWimFKFT1Q==}
